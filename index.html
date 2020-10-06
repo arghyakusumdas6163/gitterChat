@@ -10,9 +10,9 @@
 <body>
   <script>
     console.log(window.location.href);
-    var roomName='docker/docker'
+    roomName='docker/docker'
     ((window.gitter = {}).chat = {}).options = {
-      room: roomName
+      room: roomName.toString()
     };
   </script>
   <script src="./sidecar.v1.js" async defer></script>
